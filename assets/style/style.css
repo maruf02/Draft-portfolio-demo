@@ -196,16 +196,16 @@
 
 .btn-sm {
     padding: 10px 20px;
-    /* font-size: 17px; */
+    font-size: 17px;
 }
 
 .portfolio-tabs {
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 3rem; */
 
 }
 
@@ -244,7 +244,7 @@
         height: 35px;
         transform-origin: 185px;
         box-shadow: 0 0 0 1px #222,
-            0 0 0 1px #fff;
+                0 0 0 1px #fff;
 
     }
 
@@ -254,7 +254,7 @@
     }
 
     .contentt::before {
-        inset: 20px;
+        inset: 18px;
     }
 
     .contentt::after {
@@ -263,6 +263,8 @@
 
 
     /* ************* */
+
+        
 }
 
 /* meadia query 768-tablet */
