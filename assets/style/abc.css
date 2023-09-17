@@ -1,0 +1,111 @@
+@media only screen and (max-width: 640px) {
+    .imgBx {
+        width: 35px;
+        height: 35px;
+        transform-origin: 102px;
+        box-shadow: 0 0 0 1px #222,
+            0 0 0 1px #fff;
+
+    }
+
+    .imgSD {
+        box-shadow: 0 0 0 4px #222,
+            0 0 0 6px #fff;
+    }
+
+    .contentt::before {
+        inset: 20px;
+    }
+
+    .contentt::after {
+        inset: 30px;
+    }
+
+
+    /* ************* */
+}
+
+/* meadia query 768-tablet */
+@media only screen and (max-width: 768px) {
+    .imgBx {
+        width: 35px;
+        height: 35px;
+        transform-origin: 192px;
+        box-shadow: 0 0 0 1px #222,
+            0 0 0 1px #fff;
+
+    }
+
+    .imgSD {
+        box-shadow: 0 0 0 4px #222,
+            0 0 0 6px #fff;
+    }
+
+    .contentt::before {
+        inset: 17px;
+    }
+
+    .contentt::after {
+        inset: 30px;
+    }
+}
+
+/* meadia query 1024-laptop-small */
+/* @media only screen and (max-width: 1024px) { */
+.imgBx {
+    /* width: 35px;
+        height: 35px;
+        transform-origin: 192px;
+        box-shadow: 0 0 0 1px #222,
+            0 0 0 1px #fff; */
+
+}
+
+.imgSD {
+    /* bottom: -30px;
+    box-shadow: 0 0 0 4px #222,
+            0 0 0 6px #fff; */
+}
+
+.contentt::before {
+    /* inset: 15px; */
+}
+
+.contentt::after {
+    /* inset: 27px; */
+}
+
+/* } */
+
+/* meadia query 1440-laptop-L */
+@media only screen and (max-width: 1440px) {
+    .imgBx {
+        width: 35px;
+        height: 35px;
+        transform-origin: 230px;
+        box-shadow: 0 0 0 1px #222,
+            0 0 0 1px #fff;
+
+    }
+
+    .imgSD {
+        /* width: 335px;
+            height: 335px; */
+
+
+    }
+
+    .imgSD {
+        /* bottom: -30px;
+        box-shadow: 0 0 0 4px #222,
+            0 0 0 6px #fff; */
+    }
+
+    .contentt::before {
+        inset: 20px;
+    }
+
+    .contentt::after {
+        inset: 38px;
+    }
+}
