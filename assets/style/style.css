@@ -242,7 +242,7 @@
     .imgBx {
         width: 35px;
         height: 35px;
-        transform-origin: 185px;
+        transform-origin: 165px;
         box-shadow: 0 0 0 1px #222,
                 0 0 0 1px #fff;
 
