@@ -31,9 +31,10 @@
 
 </head>
 
-<body class="h-[3000px]">
-    <!-- Star  Navbar -->
-    <nav class="bg-gradient-to-r from-[#114250] to-[#131514] flex  w-full items-center fixed h-16 lg:h-20">
+<body class="h-[3000px] scroll-smooth overflow-x-hidden">
+    <!-- Star  Navbar  z-50 top-0  z-50 scroll-smooth overflow-x-hidden-->
+    <nav
+        class="bg-gradient-to-r from-[#114250] to-[#131514] flex  w-full items-center fixed h-16 lg:h-20 top-0  z-50  ">
         <div class="container mx-auto w-11/12 flex  justify-between  sm:hidden lg:inline-flex">
             <!-- logo for only small device -->
             <div class="container mx-auto  md:hidden">
@@ -97,9 +98,9 @@
     </nav>
     <!-- ends Navbar  -->
     <!-- ***************/*********************  -->
-    <!-- Start bottom menubar  -->
+    <!-- Start bottom menubar z-50 -->
     <div
-        class="flex fixed bottom-0 w-full h-10 items-center justify-center bg-gradient-to-r from-[#114250] to-[#131514] z-50 lg:hidden ">
+        class="flex fixed  bottom-0  w-full h-10 items-center justify-center bg-gradient-to-r from-[#114250] to-[#131514]   z-50 lg:hidden ">
         <div class="container mx-auto  w-11/12  items-center justify-center flex flex-wrap gap-5 md:gap-10 ">
             <a class="text-2xl" href="#"><i class="fa fa-home "></i></a>
             <a class="text-2xl" href="#About"><i class="fa fa-user"></i></a>
@@ -150,10 +151,10 @@
             <!-- middle section image anime  border  -->
 
             <section class="order-first  md:order-none">
-                <section class=" flex justify-center align-middle min-h-[50vh] lg:min-h-[60vh] xl:min-h-[60vh] ">
+                <section class=" flex justify-center align-middle min-h-[60vh] lg:min-h-[60vh] xl:min-h-[60vh] ">
                     <div
                         class="relative top-14 w-[330px] h-[340px] md:w-[330px] md:h-[340px] lg:w-[340px] lg:h-[340px] xl:w-[445px] xl:h-[450px] border-2 border-solid border-white rounded-full">
-                        <div class="relative top-[46%] right-[53.4%] w-full h-full flex justify-center cursor-pointer">
+                        <div class="relative top-[46%] right-[53.6%] w-full h-full flex justify-center cursor-pointer">
                             <div class="imgBx " style="--i:1">
                                 <img src="img/react.png" alt="">
                             </div>
@@ -185,6 +186,7 @@
                                 <img src="img/pp.jpg" alt="" class="absolute top-0 left-0 w-full h-full object-cover ">
                             </div>
                         </div>
+                    </div>
                 </section>
             </section>
             <!-- middle section image anime -->
@@ -224,22 +226,475 @@
     <!-- **************************************************************** -->
     <!-- Start About Section -->
 
+    <section class="bg-[#071B27] w-full pb-10  ">
+        <section class="container mx-auto h-full  grid lg:grid-cols-2 lg:gap-5">
+            <!-- about left side start -->
+            <section class="container mx-auto ">
+                <section class=" flex justify-center align-middle min-h-[50vh] lg:min-h-[60vh] xl:min-h-[60vh] ">
+                    <div
+                        class="relative top-14 w-[330px] h-[340px] md:w-[330px] md:h-[340px] lg:w-[340px] lg:h-[340px] xl:w-[445px] xl:h-[450px] border-2 border-solid border-white rounded-full">
+                        <div class="relative top-[46%] right-[53.6%] w-full h-full flex justify-center cursor-pointer">
+                            <div class="imgBx " style="--i:1">
+                                <img src="img/react.png" alt="">
+                            </div>
+                            <div class="imgBx" style="--i:2">
+                                <img src="img/js.png" alt="">
+                            </div>
+                            <div class="imgBx" style="--i:3">
+                                <img src="img/tailwind.jpg" alt="">
+                            </div>
+                            <div class="imgBx" style="--i:4">
+                                <img src="img/node.png" alt="">
+                            </div>
+                            <div class="imgBx" style="--i:5">
+                                <img src="img/wp.jpg" alt="">
+                            </div>
+                            <div class="imgBx" style="--i:6">
+                                <img src="img/next.jpg" alt="">
+                            </div>
+                            <div class="imgBx" style="--i:7">
+                                <img src="img/express.png" alt="">
+                            </div>
+                            <div class="imgBx" style="--i:8">
+                                <img src="img/mongo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="contentt flex justify-center align-middle absolute inset-0 overflow-hidden">
+                            <div
+                                class="imgBx imgSD relative top-12 md:top-14 w-56 h-56 lg:top-10 lg:w-64 lg:h-64 xl:top-[72px] xl:w-8/12 xl:h-2/3 rounded-full overflow-hidden ">
+                                <img src="img/pp.jpg" alt="" class="absolute top-0 left-0 w-full h-full object-cover ">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <!-- about left side ends -->
+            <!-- **************************************************************** -->
+            <!-- about right side start -->
+            <section class="">
+                <section class="text-center lg:text-left pt-20">
+                    <h1 class="text-[#1affc6] text-6xl  font-f font-bold pb-5">About Me</h1>
+                    <h3 class="text-[#79d2a6] text-2xl lg:text-3xl  font-f font-semibold pb-5">Mern Stack Developer</h3>
+                    <p class="text-[#669999] text-base text-justify px-2">As a web developer, I am a perpetual explorer
+                        of
+                        the digital
+                        realm, driven
+                        by an
+                        unquenchable
+                        curiosity and
+                        an insatiable appetite for innovation. My journey in web development began with an insatiable
+                        fascination for
+                        technology's power to transform ideas into reality. Over the years, I've honed my skills in a
+                        multitude of
+                        programming languages, frameworks, and tools, equipping me with the versatility to tackle a wide
+                        range of projects.
+                        Web development, to me, is not just a profession; it's a constant voyage of discovery and
+                        self-improvement.
+                        I embrace challenges as opportunities to expand my knowledge and push the boundaries of what's
+                        possible.
+                        I'm excited about the potential of technology to shape the future and am dedicated to being at
+                        the forefront
+                        of this digital revolution. Collaborative, adaptable, and always eager to learn, I'm
+                        enthusiastic about contributing
+                        my skills to projects that make a difference and create a better online world for all.</p>
+                    <div class="w-48 h-fit border-2 text-center bg-black rounded-full mt-5  mx-auto  lg:mx-0">
+                        <button
+                            class=" p-2 w-full text-base text-[#1affc6] hover:bg-gray-400 hover:rounded-full hover:text-black  "
+                            onclick="my_modal_1.showModal()">
+                            See more
+                        </button>
+                        <!-- pop up box model start #071B27-->
+
+                        <dialog id="my_modal_1" class="modal ">
+                            <div class="modal-box bg-[#071B27]">
+                                <!-- pop up inside style start -->
+                                <div class="container mx-auto">
+                                    <!-- about me inside pop up -->
+                                    <h1
+                                        class="text-[#1affc6] text-4xl md:text-6xl fixed sticky top-0 z-50 font-f font-bold pb-5">
+                                        About
+                                        Me
+                                    </h1>
+                                    <p
+                                        class="border-b-4 border-double border-[#79d2a6] w-3/4 md:w-11/12 lg:w-11/12 mx-auto  ">
+                                    </p>
+                                    <!-- image anime inside pop up -->
+                                    <section class="container mx-auto ">
+                                        <section
+                                            class=" flex justify-center align-middle min-h-[50vh] lg:min-h-[60vh] xl:min-h-[60vh] ">
+                                            <div
+                                                class="relative top-14 w-[330px] h-[340px] md:w-[330px] md:h-[340px] lg:w-[340px] lg:h-[340px] xl:w-[445px] xl:h-[450px] border-2 border-solid border-white rounded-full">
+                                                <div
+                                                    class="relative top-[46%] right-[51%] w-full h-full flex justify-center cursor-pointer">
+                                                    <div class="imgBx " style="--i:1">
+                                                        <img src="img/react.png" alt="">
+                                                    </div>
+                                                    <div class="imgBx" style="--i:2">
+                                                        <img src="img/js.png" alt="">
+                                                    </div>
+                                                    <div class="imgBx" style="--i:3">
+                                                        <img src="img/tailwind.jpg" alt="">
+                                                    </div>
+                                                    <div class="imgBx" style="--i:4">
+                                                        <img src="img/node.png" alt="">
+                                                    </div>
+                                                    <div class="imgBx" style="--i:5">
+                                                        <img src="img/wp.jpg" alt="">
+                                                    </div>
+                                                    <div class="imgBx" style="--i:6">
+                                                        <img src="img/next.jpg" alt="">
+                                                    </div>
+                                                    <div class="imgBx" style="--i:7">
+                                                        <img src="img/express.png" alt="">
+                                                    </div>
+                                                    <div class="imgBx" style="--i:8">
+                                                        <img src="img/mongo.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="contentt flex justify-center align-middle absolute inset-0 overflow-hidden">
+                                                    <div
+                                                        class="imgBx imgSD relative top-12 md:top-14 w-56 h-56 lg:top-10 lg:w-64 lg:h-64 xl:top-[72px] xl:w-8/12 xl:h-2/3 rounded-full overflow-hidden ">
+                                                        <img src="img/pp.jpg" alt=""
+                                                            class="absolute top-0 left-0 w-full h-full object-cover ">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </section>
+                                    <!-- image anime inside pop up -->
+                                    <p
+                                        class="border-b-4 border-double border-[#79d2a6] w-3/4 md:w-11/12 lg:w-11/12 mx-auto lg:mt-24 ">
+                                    </p>
+                                    <!-- description about me inside pop up -->
+                                    <div class="pt-10">
+                                        <p class="text-[#669999] text-base text-justify px-2">As a web developer, I am a
+                                            perpetual explorer
+                                            of
+                                            the digital
+                                            realm, driven
+                                            by an
+                                            unquenchable
+                                            curiosity and
+                                            an insatiable appetite for innovation. My journey in web development began
+                                            with an insatiable
+                                            fascination for
+                                            technology's power to transform ideas into reality. Over the years, I've
+                                            honed my skills in a
+                                            multitude of
+                                            programming languages, frameworks, and tools, equipping me with the
+                                            versatility to tackle a wide
+                                            range of projects.
+                                            Web development, to me, is not just a profession; it's a constant voyage of
+                                            discovery and
+                                            self-improvement.
+                                            I embrace challenges as opportunities to expand my knowledge and push the
+                                            boundaries of what's
+                                            possible.
+                                            I'm excited about the potential of technology to shape the future and am
+                                            dedicated to being at
+                                            the forefront
+                                            of this digital revolution. Collaborative, adaptable, and always eager to
+                                            learn, I'm
+                                            enthusiastic about contributing
+                                            my skills to projects that make a difference and create a better online
+                                            world for all.</p>
+                                    </div>
+                                    <!-- description about me inside pop up -->
+                                </div>
+
+                                <!-- pop up inside style ends -->
+                            </div>
+                            <form method="dialog" class="modal-backdrop">
+                                <button>close</button>
+                            </form>
+                        </dialog>
+                        <!-- pop up box model ends -->
+
+
+                    </div>
+                </section>
+            </section>
+            <!-- about right side ends -->
+        </section>
+
+    </section>
     <!-- Ends About Section -->
     <!-- **************************************************************** -->
     <!-- **************************************************************** -->
     <!-- start Skills Section -->
+    <section class="bg-[#0f0f24] w-full pb-16 ">
+        <!-- skills title -->
+        <section class=" mx-auto w-full  pt-10 pb-5">
+            <h1 class="text-[#79d2a6] text-6xl text-center font-f font-bold ">Skills</h1>
+            <p class="border-b-4 border-double border-[#79d2a6] w-3/4 md:w-4/12 lg:w-2/12 mx-auto"></p>
+        </section>
+        <!-- skills title -->
+        <!-- skills card -->
+        <section class="container mx-auto  pt-5">
+            <div class="">
+                <!-- <div
+                    class=" container mx-auto grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 mt-10 align-middle justify-center  "> -->
+                <div class=" container mx-auto flex flex-wrap justify-center align-middle text-center gap-2 lg:gap-7 ">
 
+                    <div class="progress relative w-40 h-40 rounded-full my-5 " style="--ii:80;--clr:#43f94a;">
+                        <h3 class="h3">80<span class="span">%</span></h3>
+                        <h4 class="h4">html5</h4>
+                    </div>
+                    <div class="progress relative w-40 h-40 rounded-full my-5" style="--ii:80;--clr:#00ffff;">
+                        <h3 class="h3">80<span class="span">%</span></h3>
+                        <h4 class="h4">css3</h4>
+                    </div>
+                    <div class="progress relative w-40 h-40 rounded-full my-5" style="--ii:80;--clr:#40bf80;">
+                        <h3 class="h3">80<span class="span">%</span></h3>
+                        <h4 class="h4">tailwind</h4>
+                    </div>
+                    <div class="progress relative w-40 h-40 rounded-full my-5" style="--ii:75;--clr:#009999;">
+                        <h3 class="h3">75<span class="span">%</span></h3>
+                        <h4 class="h4">JavaScript</h4>
+                    </div>
+
+                    <div class="progress less relative w-40 h-40 rounded-full my-5" style="--ii:35;--clr:#669900;">
+                        <h3 class="h3">35<span class="span">%</span></h3>
+                        <h4 class="h4">React</h4>
+                    </div>
+                    <div class="progress less relative w-40 h-40 rounded-full my-5" style="--ii:25;--clr:#ffd480;">
+                        <h3 class="h3">25<span class="span">%</span></h3>
+                        <h4 class="h4">Node js</h4>
+                    </div>
+                    <div class="progress less relative w-40 h-40 rounded-full my-5" style="--ii:25;--clr:#ff8000;">
+                        <h3 class="h3">25<span class="span">%</span></h3>
+                        <h4 class="h4">Next js</h4>
+                    </div>
+                    <div class="progress less relative w-40 h-40 rounded-full my-5" style="--ii:25;--clr:#ffcc00;">
+                        <h3 class="h3">25<span class="span">%</span></h3>
+                        <h4 class="h4">Mongodb</h4>
+                    </div>
+                    <div class="progress  relative w-40 h-40 rounded-full my-5" style="--ii:85;--clr:#ff9900;">
+                        <h3 class="h3">85<span class="span">%</span></h3>
+                        <h4 class="h4">wordpress</h4>
+                    </div>
+                    <div class="progress less relative w-40 h-40 rounded-full my-5" style="--ii:45;--clr:#ff944d;">
+                        <h3 class="h3">45<span class="span">%</span></h3>
+                        <h4 class="text-base h4">photoshop</h4>
+                    </div>
+                    <div class="progress less relative w-40 h-40 rounded-full my-5" style="--ii:45;--clr:#ff99ff;">
+                        <h3 class="h3">45<span class="span">%</span></h3>
+                        <h4 class="text-base h4">Video Editing</h4>
+                    </div>
+                    <div class="progress relative w-40 h-40 rounded-full my-5" style="--ii:75;--clr:#9999ff;">
+                        <h3 class="h3">75<span class="span">%</span></h3>
+                        <h4 class="h4">mysql</h4>
+                    </div>
+                    <div class="progress relative w-40 h-40 rounded-full my-5" style="--ii:75;--clr:#6666ff;">
+                        <h3 class="h3">75<span class="span">%</span></h3>
+                        <h4 class="h4"> php</h4>
+                    </div>
+                    <p class="border-l-4 border-double border-[#43f94a] "></p>
+
+                    <div class="progress relative w-40 h-40 rounded-full my-5" style="--ii:85;--clr:#996633;">
+                        <h3 class="h3">85<span class="span">%</span></h3>
+                        <h4 class="h4"> creativity</h4>
+                    </div>
+                    <div class="progress relative w-40 h-40 rounded-full my-5" style="--ii:85;--clr:#cc9900;">
+                        <h3 class="h3">85<span class="span">%</span></h3>
+                        <h4 class="h4 text-sm "> communi <br>cation</h4>
+                    </div>
+                    <div class="progress relative w-40 h-40 rounded-full my-5" style="--ii:85;--clr:#cc6600;">
+                        <h3 class="h3">85<span class="span">%</span></h3>
+                        <h4 class="h4 text-sm"> problem solving</h4>
+                    </div>
+                    <div class="progress relative w-40 h-40 rounded-full my-5" style="--ii:85;--clr:#666633;">
+                        <h3 class="h3">85<span class="span">%</span></h3>
+                        <h4 class="h4"> Teamwork</h4>
+                    </div>
+                    <div class="progress relative w-40 h-40 rounded-full my-5" style="--ii:85;--clr:#336600;">
+                        <h3 class="h3">85<span class="span">%</span></h3>
+                        <h4 class="h4 text-sm"> backup support</h4>
+                    </div>
+                    <div class="progress relative w-40 h-40 rounded-full my-5" style="--ii:85;--clr:#8533ff;">
+                        <h3 class="h3">85<span class="span">%</span></h3>
+                        <h4 class="h4 text-sm"> Client-Focused</h4>
+                    </div>
+                    <div class="progress relative w-40 h-40 rounded-full my-5" style="--ii:85;--clr:#4d4dff;">
+                        <h3 class="h3">85<span class="span">%</span></h3>
+                        <h4 class="h4 text-sm"> Adaptability</h4>
+                    </div>
+                    <div class="progress relative w-40 h-40 rounded-full my-5" style="--ii:85;--clr:#ff8000;">
+                        <h3 class="h3">85<span class="span">%</span></h3>
+                        <h4 class="h4 text-sm"> Ethical Considera <br>tions</h4>
+                    </div>
+                </div>
+
+
+
+            </div>
+            </div>
+
+        </section>
+    </section>
     <!-- Ends Skills Section -->
     <!-- **************************************************************** -->
     <!-- **************************************************************** -->
 
     <!-- Start Service Section -->
-
+    <section class="bg-[#2B2B5F] w-full h-[750px] lg:h-[650px] pb-20 ">
+        <section class=" mx-auto w-full  pt-10 pb-5">
+            <h1 class="text-[#79d2a6] text-6xl text-center font-f font-bold ">Services</h1>
+            <p class="border-b-4 border-double border-[#79d2a6] w-3/4 md:w-4/12 lg:w-2/12 mx-auto"></p>
+        </section>
+        <section class="container mx-auto h-full  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 ">
+            <!-- 1 -->
+            <section
+                class="bg-[#1A083D]  border-4 border-double border-[#79d2a6] h-36 w-36 md:h-44 md:w-44 lg:h-52 lg:w-52 rotate-45  text-center  relative left-44 top-10 md:top-20 md:left-20 lg:top-16 lg:left-44 ">
+                <p class="text-[#79d2a6] text-2xl lg:text-3xl font-f font-bold mt-[40%] -rotate-45 relative -top-6">WEB
+                    DESIGN (API)
+                </p>
+            </section>
+            <!-- 2 -->
+            <section
+                class="bg-[#1A083D] border-4 border-double border-[#79d2a6] h-36 w-36 md:h-44 md:w-44 lg:h-52 lg:w-52  text-center rotate-45 relative left-10 lg:top-56 md:top-10 lg:left-16">
+                <p
+                    class="text-[#79d2a6] text-lg lg:text-2xl font-f font-bold mt-[40%] -rotate-45 relative -top-4 -left-4 md:-left-2 md:-top-4">
+                    WEB
+                    DEVELOPMENT (API)
+                </p>
+            </section>
+            <!-- 3 -->
+            <section
+                class=" bg-[#1A083D] border-4 border-double border-[#79d2a6] h-36 w-36 md:h-44 md:w-44 lg:h-52 lg:w-52  text-center rotate-45 relative left-44 -top-10 lg:top-16 lg:-left-10">
+                <p class="text-[#79d2a6] text-lg lg:text-2xl font-f font-bold mt-[40%] -rotate-45">WORDPRESS</p>
+            </section>
+            <!-- 4 -->
+            <section
+                class=" bg-[#1A083D] border-4 border-double border-[#79d2a6] h-36 w-36 md:h-44 md:w-44 lg:h-52 lg:w-52  text-center rotate-45 relative left-10 -top-20 md:top-6 lg:top-48 lg:-left-28">
+                <p class="text-[#79d2a6] text-3xl font-f font-bold mt-[40%] -rotate-45">SEO</p>
+            </section>
+        </section>
+    </section>
     <!-- Ends Service Section -->
     <!-- **************************************************************** -->
     <!-- **************************************************************** -->
     <!-- Start Portfolio Section -->
 
+    <section class="bg-[#1B1B42] mx-auto w-full h-fit pb-32 " id="Portfolio">
+        <section class=" mx-auto w-full  pt-16 pb-5">
+            <h1 class="text-[#79d2a6] text-4xl md:text-5xl lg:text-6xl text-center font-f font-bold ">Recent Work</h1>
+            <p class="border-b-4 border-double border-[#79d2a6] w-3/4 md:w-6/12 lg:w-3/12 mx-auto"></p>
+        </section>
+
+        <section class="container mx-auto  h-fit wcontainer portfolio-container">
+            <!-- tab section -->
+            <section class=" flex flex-row flex-wrap gap-3 md:gap-5 text-center justify-center pt-10 pb-8 ">
+                <div class="  btn btn-white tab-active pt-1 text-xl " data-name="All">
+                    ALL
+                </div>
+                <div class=" btn btn-white pt-1 text-xl" data-name="Frontend">
+                    Front-End</div>
+                <div class="  btn btn-white pt-1 text-xl" data-name="Backend">Back-end
+                </div>
+
+            </section>
+            <!-- ****************************** -->
+            <section>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-5 lg:gap-12 ">
+                    <div class=" card mx-auto w-11/12 lg:w-full mb-5" data-name="Backend">
+                        <img src="img/abc.jpg" alt="" class="w-full h-80 p-5 rounded-2xl">
+                        <h5 class="text-white text-xl font-bold pt-2 lg:pt-5 pl-5">Project1(Backend)</h5>
+                        <p class="p pt-5 pl-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae hic quo tenetur id quod
+                            vero
+                            inventore nostrum iusto?
+                        </p>
+                        <div class=" pt-5 pl-5 pb-5">
+                            <a href="" class="btn-sm btn w-24 h-14 text-xl ">Live</a>
+                            <a href="" class="btn-sm btn btn-white w-28 h-14 text-xl ml-5">Github</a>
+                        </div>
+                    </div>
+
+
+
+                    <div class=" card mx-auto w-11/12 lg:w-full mb-5" data-name="Backend">
+                        <img src="img/abc.jpg" alt="" class="w-full h-80 p-5 rounded-2xl">
+                        <h5 class="text-white text-xl font-bold pt-2 lg:pt-5 pl-5">Project1(Backend)</h5>
+                        <p class="p pt-5 pl-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae hic quo tenetur id quod
+                            vero
+                            inventore nostrum iusto?
+                        </p>
+                        <div class=" pt-5 pl-5 pb-5">
+                            <a href="" class="btn-sm btn w-24 h-14 text-xl ">Live</a>
+                            <a href="" class="btn-sm btn btn-white w-28 h-14 text-xl ml-5">Github</a>
+                        </div>
+                    </div>
+
+
+                    <div class=" card mx-auto w-11/12 lg:w-full mb-5 " data-name="Backend">
+                        <img src="img/abc.jpg" alt="" class="w-full h-80 p-5 rounded-2xl">
+                        <h5 class="text-white text-xl font-bold pt-2 lg:pt-5 pl-5">Project1(Backend)</h5>
+                        <p class="p pt-5 pl-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae hic quo tenetur id quod
+                            vero
+                            inventore nostrum iusto?
+                        </p>
+                        <div class=" pt-5 pl-5 pb-5">
+                            <a href="" class="btn-sm btn w-24 h-14 text-xl ">Live</a>
+                            <a href="" class="btn-sm btn btn-white w-28 h-14 text-xl ml-5">Github</a>
+                        </div>
+                    </div>
+
+
+
+                    <div class=" card mx-auto w-11/12 lg:w-full mb-5" data-name="Backend">
+                        <img src="img/abc.jpg" alt="" class="w-full h-80 p-5 rounded-2xl">
+                        <h5 class="text-white text-xl font-bold pt-2 lg:pt-5 pl-5">Project1(Backend)</h5>
+                        <p class="p pt-5 pl-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae hic quo tenetur id quod
+                            vero
+                            inventore nostrum iusto?
+                        </p>
+                        <div class=" pt-5 pl-5 pb-5">
+                            <a href="" class="btn-sm btn w-24 h-14 text-xl ">Live</a>
+                            <a href="" class="btn-sm btn btn-white w-28 h-14 text-xl ml-5">Github</a>
+                        </div>
+                    </div>
+
+
+
+                    <div class=" card mx-auto w-11/12 lg:w-full mb-5" data-name="Backend">
+                        <img src="img/abc.jpg" alt="" class="w-full h-80 p-5 rounded-2xl">
+                        <h5 class="text-white text-xl font-bold pt-2 lg:pt-5 pl-5">Project1(Backend)</h5>
+                        <p class="p pt-5 pl-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae hic quo tenetur id quod
+                            vero
+                            inventore nostrum iusto?
+                        </p>
+                        <div class=" pt-5 pl-5 pb-5">
+                            <a href="" class="btn-sm btn w-24 h-14 text-xl ">Live</a>
+                            <a href="" class="btn-sm btn btn-white w-28 h-14 text-xl ml-5">Github</a>
+                        </div>
+                    </div>
+                    <div class=" card mx-auto w-11/12 lg:w-full mb-5" data-name="Backend">
+                        <img src="img/abc.jpg" alt="" class="w-full h-80 p-5 rounded-2xl">
+                        <h5 class="text-white text-xl font-bold pt-2 lg:pt-5 pl-5">Project1(Backend)</h5>
+                        <p class="p pt-5 pl-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae hic quo tenetur id quod
+                            vero
+                            inventore nostrum iusto?
+                        </p>
+                        <div class=" pt-5 pl-5 pb-5">
+                            <a href="" class="btn-sm btn w-24 h-14 text-xl ">Live</a>
+                            <a href="" class="btn-sm btn btn-white w-28 h-14 text-xl ml-5">Github</a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+        </section>
+
+        <!-- ************ -->
+    </section>
 
     <!-- Ends Portfolio Section -->
     <!-- **************************************************************** -->

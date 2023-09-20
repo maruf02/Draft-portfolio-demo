@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwind and daisy linkup -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--Custom css link -->
+    <link rel="stylesheet" href="assets/style/style.css">
+    <!-- swiper css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- font icon awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://www.dafontfree.net/embed/Y29sb25uYS1tdC1yZWd1bGFyJmRhdGEvMjQvYy8xMTkxMTEvQ29sb25uYU1ULnR0Zg"
+        rel="stylesheet" type="text/css" />
+    </style>
+
+    <!-- font setup -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Zen+Dots&display=swap"
+        rel="stylesheet" />
+
+    <style>
+        .font-f {
+            font-family: 'Zen Dots', cursive;
+        }
+    </style>
+
+</head>
+
+<body class="h-[3000px]">
+    <!-- Star  Navbar -->
+    <nav class="bg-gradient-to-r from-[#114250] to-[#131514] flex  w-full items-center fixed h-16 lg:h-20">
+        <div class="container mx-auto w-11/12 flex  justify-between  sm:hidden lg:inline-flex">
+            <!-- logo for only small device -->
+            <div class="container mx-auto  md:hidden">
+                <h2 class="text-4xl  text-center font-f text-[#53c9e0] ">MARUF</h2>
+            </div>
+            <!-- logo for only small device -->
+            <a href="" class="logo">
+                <h3>
+                    <!-- <div style="display: flex; flex-direction: row; gap: 12px;"> -->
+                    <div class="hidden lg:inline">
+                        <!-- <img src="img/abc (6).png" alt="" style="width:80px; height: 80px; padding-top: 10px; "> -->
+                        <!-- <img src="img/abc (5).png" alt="" style=" width: 150px; height: 80px;"> -->
+                        <h2 class="text-4xl font-f text-[#53c9e0]">MARUF</h2>
+                    </div>
+                </h3>
+            </a>
+            <ul class=" hidden lg:inline-flex text-white text-lg flex flex-row items-center gap-6 font-f ">
+                <li
+                    class="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-lime-500 duration-100">
+                    <a href="#">Home</a>
+                </li>
+                <li
+                    class="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-lime-500 duration-100">
+                    <a href="#About">About</a>
+                </li>
+                <li
+                    class="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-lime-500 duration-100">
+                    <a href="#Skills">Skills</a>
+                </li>
+                <li
+                    class="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-lime-500 duration-100">
+                    <a href="#Services">Service</a>
+                </li>
+                <li
+                    class="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-lime-500 duration-100">
+                    <a href="#Portfolio">Portfolio</a>
+                </li>
+                <li
+                    class="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-lime-500 duration-100">
+                    <a href="#Contact">Contact</a>
+                </li>
+            </ul>
+            <!-- menu Button -->
+            <!-- <div class="-left-16">
+                <button class="btn btn-square btn-ghost bg-green-600 inline-block md:inline-block  ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        class="inline-block w-5 h-5 stroke-current">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16">
+                        </path>
+                    </svg>
+                </button>
+            </div> -->
+            <!-- menu Button -->
+        </div>
+        <!-- logo for only md device -->
+        <div class="container mx-auto hidden md:inline  lg:hidden">
+            <h2 class="text-4xl  text-center font-f text-[#53c9e0] ">MARUF</h2>
+        </div>
+        <!-- logo for only md device -->
+    </nav>
+    <!-- ends Navbar  -->
+    <!-- ***************/*********************  -->
+    <!-- Start bottom menubar  -->
+    <div
+        class="flex fixed bottom-0 w-full h-10 items-center justify-center bg-gradient-to-r from-[#114250] to-[#131514] z-50 lg:hidden ">
+        <div class="container mx-auto  w-11/12  items-center justify-center flex flex-wrap gap-5 md:gap-10 ">
+            <a class="text-2xl" href="#"><i class="fa fa-home "></i></a>
+            <a class="text-2xl" href="#About"><i class="fa fa-user"></i></a>
+            <a class="text-2xl" href="#Skills"><i class="fa fa-dashboard"></i></a>
+            <a class="text-2xl" href="#Services"><i class="fa fa-box"></i></a>
+            <a class="text-2xl" href="#Portfolio"><i class="fab fa-windows"></i></a>
+            <a class="text-2xl" href="#Contact"><i class="fa fa-message"></i></a>
+
+        </div>
+    </div>
+    <!-- ends bottom menubar   -->
+    <!-- **************************************************************** -->
+    <!-- **************************************************************** -->
+    <!-- Start Header -->
+    <header class="bg-gradient-to-r from-[#114250] to-[#131514]  bg-no-repeat font-f py-16 ">
+
+        <section class="container mx-auto lg:pt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:mx-auto  ">
+            <!-- left side -->
+            <section class="">
+                <div class="text-5xl font-bold text-white text-center lg:text-left pt-9 lg:pt-24 pb-4 ">Maruf</div>
+                <div class="text-xl text-center lg:text-left font-extralight text-gray-300 pb-2">MERN stack developer
+                </div>
+                <hr class=" w-11/12 lg:w-8/12 lg:justify-start h-2 pb-6 mx-auto lg:mx-0">
+                <div class=" w-11/12 text-sm text-center lg:text-left font-thin text-gray-300 pb-4">Innovative Full
+                    Stack
+                    Developer with a
+                    passion for creating seamless web applications. Skilled in front-end
+                    and back-end technologies, ready to take on new challenges.</div>
+                <div class="w-fit h-fit border-2 bg-black rounded-full mt-5 mx-auto lg:mx-0">
+                    <button class="p-2 text-base text-white hover:bg-gray-400 hover:rounded-full hover:text-black  ">
+                        Let's work together
+                    </button>
+
+                </div>
+                <div class="mx-auto pt-6  container lg:-ml-36 text-center justify-center flex gap-4 ">
+
+                    <a href=""><i class="fab fa-facebook" style="font-size:24px;"></i></a>
+                    <a href=""><i class="fab fa-instagram" style="font-size:24px"></i></a>
+                    <a href=""><i class="fab fa-twitter" style="font-size:24px"></i></a>
+                    <a href=""><i class="fab fa-linkedin" style="font-size:24px"></i></a>
+                    <a href=""><i class="fab fa-github" style="font-size:24px"></i></a>
+
+                </div>
+                <!-- draw line for mobile -->
+                <p class="border-b-2 my-6 w-11/12 mx-auto md:hidden"></p>
+
+            </section>
+            <!-- middle section image anime  border  -->
+
+            <section class="order-first  md:order-none">
+                <section class=" flex justify-center align-middle min-h-[50vh] lg:min-h-[60vh] xl:min-h-[60vh] ">
+                    <div
+                        class="relative top-14 w-[330px] h-[340px] md:w-[330px] md:h-[340px] lg:w-[340px] lg:h-[340px] xl:w-[445px] xl:h-[450px] border-2 border-solid border-white rounded-full">
+                        <div class="relative top-[46%] right-[53.4%] w-full h-full flex justify-center cursor-pointer">
+                            <div class="imgBx " style="--i:1">
+                                <img src="img/react.png" alt="">
+                            </div>
+                            <div class="imgBx" style="--i:2">
+                                <img src="img/js.png" alt="">
+                            </div>
+                            <div class="imgBx" style="--i:3">
+                                <img src="img/tailwind.jpg" alt="">
+                            </div>
+                            <div class="imgBx" style="--i:4">
+                                <img src="img/node.png" alt="">
+                            </div>
+                            <div class="imgBx" style="--i:5">
+                                <img src="img/wp.jpg" alt="">
+                            </div>
+                            <div class="imgBx" style="--i:6">
+                                <img src="img/next.jpg" alt="">
+                            </div>
+                            <div class="imgBx" style="--i:7">
+                                <img src="img/express.png" alt="">
+                            </div>
+                            <div class="imgBx" style="--i:8">
+                                <img src="img/mongo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="contentt flex justify-center align-middle absolute inset-0 overflow-hidden">
+                            <div
+                                class="imgBx imgSD relative top-12 md:top-14 w-56 h-56 lg:top-10 lg:w-64 lg:h-64 xl:top-[72px] xl:w-8/12 xl:h-2/3 rounded-full overflow-hidden ">
+                                <img src="img/pp.jpg" alt="" class="absolute top-0 left-0 w-full h-full object-cover ">
+                            </div>
+                        </div>
+                </section>
+            </section>
+            <!-- middle section image anime -->
+            <!-- right section  -->
+            <section class="ml-4 lg:ml-8 lg:pt-10 order-3 hidden lg:inline-block">
+                <div class="my-10">
+                </div>
+                <div class="pl-10 text-gray-300 text-xl font-bold">
+                    <div>
+                        <h1 id="experience">3 +</h1>
+                        <hr class="w-10/12 my-2">
+                        <h3 class="font-bold text-xl pb-6">Years of experience</h3>
+                    </div>
+                    <div>
+                        <h1 id="clients">20 +</h1>
+                        <hr class="w-6/12 my-2">
+                        <h3 class="font-bold text-xl pb-6">Happy clients</h3>
+                    </div>
+                    <div>
+                        <h1 id="projects">50 +</h1>
+                        <hr class="w-9/12 my-2">
+                        <h3 class="font-bold text-xl pb-6">Projects completed</h3>
+                    </div>
+                    <div>
+                        <h1 id="screens">200 +</h1>
+                        <hr class="w-4/12 my-2">
+                        <h3 class="font-bold text-xl pb-6">Screens</h3>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- draw line for tablet -->
+        <p class="hidden  border-b-2 my-6 w-full container mx-auto md:inline-block lg:hidden"></p>
+    </header>
+    <!-- Ends Header -->
+    <!-- **************************************************************** -->
+    <!-- **************************************************************** -->
+    <!-- Start About Section -->
+
+    <!-- Ends About Section -->
+    <!-- **************************************************************** -->
+    <!-- **************************************************************** -->
+    <!-- start Skills Section -->
+
+    <!-- Ends Skills Section -->
+    <!-- **************************************************************** -->
+    <!-- **************************************************************** -->
+
+    <!-- Start Service Section -->
+
+    <!-- Ends Service Section -->
+    <!-- **************************************************************** -->
+    <!-- **************************************************************** -->
+    <!-- Start Portfolio Section -->
+
+
+    <!-- Ends Portfolio Section -->
+    <!-- **************************************************************** -->
+    <!-- **************************************************************** -->
+    <!-- Start Customer Section -->
+
+    <!-- Ends Customer Section -->
+    <!-- **************************************************************** -->
+    <!-- **************************************************************** -->
+    <!-- Start Contact Section -->
+
+    <!-- End Contact Section -->
+    <!-- **************************************************************** -->
+    <!-- **************************************************************** -->
+    <!-- Start Footer Section -->
+
+    <!-- Ends Footer Section -->
+
+
+
+
+    <!-- <i class="fa-brands fa-facebook"></i> -->
+    <!-- custom js link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- <script src="assets/script.js"></script> -->
+    <script src="assets/main.js"></script>
+
+</body>
+
+</html>
